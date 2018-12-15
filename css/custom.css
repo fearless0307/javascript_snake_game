@@ -1,0 +1,44 @@
+/* Css for canvas */
+canvas {
+  display: block;
+  background-color: #333333;
+  float: left;
+}
+
+/* CSS for menu */
+.menu {
+  display: block;
+  width: 408px;
+  float: left;
+}
+
+/* CSS for menu button */
+#menu-button {
+  margin: 0;
+}
+
+/* CSS for clear button */
+#clear-button {
+  margin: 0;
+}
+
+.btn-group .button {
+  background-color: #333333;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #111111;
+}
